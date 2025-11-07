@@ -42,6 +42,7 @@ apply_wallpaper() {
     wal -i "$img" && matugen image "$img"
     pkill swaync 1>/dev/null || true
     swaync & disown
+    pywalfox update
     #notify-send "Wallpaper applied" -i "$img"
 
     # Generate blurred wallpaper (cache-aware)

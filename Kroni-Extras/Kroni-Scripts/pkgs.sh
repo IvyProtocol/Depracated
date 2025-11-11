@@ -28,6 +28,7 @@ ly
 mpc
 mpd
 mpv
+mesa-utils
 matugen
 nautilus
 ncmpcpp
@@ -51,12 +52,12 @@ rofi
 starship
 swaync
 swww
-power-profiles-daemon
+tlp
 ttf-fira-mono
 ttf-jetbrains-mono-nerd
 unzip
 waybar
-wf-recorder
+wl-screenrec
 wl-clip-persist
 wlogout
 xdg-desktop-portal-gtk

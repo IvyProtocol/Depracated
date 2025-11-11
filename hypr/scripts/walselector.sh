@@ -39,7 +39,12 @@ apply_wallpaper() {
     swww img "$img" -t any --transition-bezier .43,1.19,1,.4 --transition-duration 1 --transition-fps 120
     sleep 0.8
 
-    wal -i "$img" && matugen image "$img"
+    wal -i "$img"
+    matugen image "$img"
+    sleep 0.1
+
+    hyprctl reload
+
     pkill swaync 1>/dev/null || true
     swaync & disown
     pywalfox update

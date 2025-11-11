@@ -55,6 +55,7 @@ mainbox {
 
 imagebox {
     padding:                     20px;
+    border-radius:               15px;
     background-color:            transparent;
     //background-image:            url("~/.config/rofi/shared/current-wallpaper.png", height);
     background-image:            url("~/.config/rofi/shared/current-wallpaper.png", height);
@@ -101,7 +102,7 @@ textbox-prompt-colon {
     border-radius:               12px;
     background-color:            @active;
     text-color:                  @selected-text;
-    font:                        "GeistMono Nerd Font 16";
+    font:                        "JetBrainsMono Nerd Font 16";
 }
 entry{
     expand:                      true;

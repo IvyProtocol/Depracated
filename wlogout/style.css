@@ -9,6 +9,9 @@
 
 window {
     background-image: image(url("wallpaper_blurred.png"));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 button {

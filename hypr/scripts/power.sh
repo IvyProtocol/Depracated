@@ -71,5 +71,3 @@ if [[ "$1" == "suspend" ]]; then
 	hyprlock & disown
 	systemctl suspend
 fi
-
-

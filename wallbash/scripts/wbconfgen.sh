@@ -36,6 +36,7 @@ if [[ -f $wbconfcache ]]; then
     $scrDir/wbconfgen-rgbupdate.sh
     $scrDir/wbconfgen-kitty.sh
     $scrDir/wbconfgen-hypr.sh
+    $scrDir/wbconfgen-gtk.sh
     $scrDir/wbconfgen-pyfox.sh
     $scrDir/wbconfgen-discordtheme.sh
     $scrDir/wbconfgen-cava.sh
@@ -268,6 +269,7 @@ printf '\nTo use in your environment: This will provide variables: dcol_pry1, dc
     $scrDir/wbconfgen-rgbupdate.sh
     $scrDir/wbconfgen-kitty.sh
     $scrDir/wbconfgen-hypr.sh
+    $scrDir/wbconfgen-gtk.sh
     $scrDir/wbconfgen-pyfox.sh
     $scrDir/wbconfgen-discordtheme.sh
     $scrDir/wbconfgen-cava.sh
